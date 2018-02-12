@@ -1,6 +1,0 @@
-"0","# Formula for physical PCs only"
-"0","phys_formula <- formula(""condition.wtat25cm ~ s(phy.PC1, k = 3) + s(phy.PC2, k = 3) + s(phy.PC3, k = 3)"")"
-"0","# GAM"
-"0","phys_only_gam <- mgcv::gam(phys_formula, data = hake)"
-"0","# Plot results"
-"0","plot_gam_effect(phys_only_gam, ""Weight at 25 cm"")"
