@@ -1,0 +1,48 @@
+<table style="width:100%;">
+<colgroup>
+<col width="63%" />
+<col width="9%" />
+<col width="9%" />
+<col width="17%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Formula</th>
+<th align="right">AIC</th>
+<th align="right">GCV</th>
+<th align="right">Dev. explained (%)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">K_spring ~ s(phy.PC1, k = 3)*** + s(phe.PC2, k = 3)***</td>
+<td align="right">-52.60811</td>
+<td align="right">0.0003103</td>
+<td align="right">95.9</td>
+</tr>
+<tr class="even">
+<td align="left">K_spring ~ s(phy.PC1, k = 3)* + s(phe.PC1, k = 3)#</td>
+<td align="right">-32.90602</td>
+<td align="right">0.0024717</td>
+<td align="right">74.3</td>
+</tr>
+<tr class="odd">
+<td align="left">K_spring ~ s(zoo.PC2, k = 3)# + s(phe.PC2, k = 3)#</td>
+<td align="right">-31.45029</td>
+<td align="right">0.0028547</td>
+<td align="right">70.2</td>
+</tr>
+<tr class="even">
+<td align="left">K_spring ~ s(phy.PC1, k = 3)# + s(zoo.PC3, k = 3)# + s(phe.PC1, k = 3)#</td>
+<td align="right">-31.29677</td>
+<td align="right">0.0035571</td>
+<td align="right">75.0</td>
+</tr>
+<tr class="odd">
+<td align="left">K_spring ~ s(zoo.PC2, k = 3)# + s(zoo.PC3, k = 3)# + s(phe.PC2, k = 3)#</td>
+<td align="right">-30.42140</td>
+<td align="right">0.0038455</td>
+<td align="right">72.5</td>
+</tr>
+</tbody>
+</table>

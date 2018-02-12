@@ -1,0 +1,48 @@
+<table>
+<colgroup>
+<col width="63%" />
+<col width="9%" />
+<col width="9%" />
+<col width="18%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Formula</th>
+<th align="right">AIC</th>
+<th align="right">GCV</th>
+<th align="right">Dev. explained (%)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">ssb ~ s(zoo.PC1, k = 3)*** + s(phe.PC1, k = 3)#</td>
+<td align="right">418.0656</td>
+<td align="right">660288441</td>
+<td align="right">78.3</td>
+</tr>
+<tr class="even">
+<td align="left">ssb ~ s(phy.PC1, k = 3)# + s(zoo.PC1, k = 3)*** + s(phe.PC1, k = 3)#</td>
+<td align="right">418.8545</td>
+<td align="right">721361149</td>
+<td align="right">80.8</td>
+</tr>
+<tr class="odd">
+<td align="left">ssb ~ s(phy.PC1, k = 3)# + s(zoo.PC1, k = 3)***</td>
+<td align="right">419.0307</td>
+<td align="right">716012422</td>
+<td align="right">79.6</td>
+</tr>
+<tr class="even">
+<td align="left">ssb ~ s(phy.PC2, k = 3)# + s(zoo.PC1, k = 3)*** + s(phe.PC1, k = 3)#</td>
+<td align="right">419.1881</td>
+<td align="right">724672058</td>
+<td align="right">79.6</td>
+</tr>
+<tr class="odd">
+<td align="left">ssb ~ s(phy.PC1, k = 3)# + s(zoo.PC1, k = 3)*** + s(zoo.PC2, k = 3)#</td>
+<td align="right">419.3351</td>
+<td align="right">747484369</td>
+<td align="right">80.8</td>
+</tr>
+</tbody>
+</table>

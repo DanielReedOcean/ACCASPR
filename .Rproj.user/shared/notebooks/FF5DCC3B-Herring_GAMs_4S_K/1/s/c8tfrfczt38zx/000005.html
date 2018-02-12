@@ -1,0 +1,48 @@
+<table style="width:100%;">
+<colgroup>
+<col width="63%" />
+<col width="9%" />
+<col width="9%" />
+<col width="17%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Formula</th>
+<th align="right">AIC</th>
+<th align="right">GCV</th>
+<th align="right">Dev. explained (%)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">K_autumn ~ s(zoo.PC3, k = 3)*** + s(phe.PC1, k = 3)#</td>
+<td align="right">-52.75375</td>
+<td align="right">0.0003510</td>
+<td align="right">94.3</td>
+</tr>
+<tr class="even">
+<td align="left">K_autumn ~ s(zoo.PC1, k = 3)*** + s(zoo.PC2, k = 3)***</td>
+<td align="right">-51.49348</td>
+<td align="right">0.0003147</td>
+<td align="right">90.8</td>
+</tr>
+<tr class="odd">
+<td align="left">K_autumn ~ s(zoo.PC2, k = 3)# + s(zoo.PC3, k = 3)** + s(phe.PC1, k = 3)#</td>
+<td align="right">-51.19828</td>
+<td align="right">0.0005009</td>
+<td align="right">94.4</td>
+</tr>
+<tr class="even">
+<td align="left">K_autumn ~ s(phy.PC1, k = 3)# + s(zoo.PC3, k = 3)** + s(phe.PC1, k = 3)#</td>
+<td align="right">-50.69751</td>
+<td align="right">0.0005365</td>
+<td align="right">94.2</td>
+</tr>
+<tr class="odd">
+<td align="left">K_autumn ~ s(phy.PC2, k = 3)** + s(zoo.PC1, k = 3)***</td>
+<td align="right">-49.80371</td>
+<td align="right">0.0004091</td>
+<td align="right">90.8</td>
+</tr>
+</tbody>
+</table>

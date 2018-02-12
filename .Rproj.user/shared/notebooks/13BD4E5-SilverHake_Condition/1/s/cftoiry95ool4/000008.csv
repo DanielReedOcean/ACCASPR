@@ -1,0 +1,32 @@
+"0","# Plot residual figures"
+"0","lapply(top_models_18, FUN = examine_gam_res, data = hake)"
+"2","Joining, by = c(""TOTAL.Biomass"", ""Condition.wtat18cm"", ""phy.PC3"", ""phe.PC3"")
+"
+"2","Joining, by = c(""Condition.wtat18cm"", ""phy.PC2"", ""zoo.PC2"", ""phe.PC2"")
+"
+"2","Joining, by = c(""TOTAL.Biomass"", ""Condition.wtat18cm"", ""zoo.PC2"", ""phe.PC1"")
+"
+"2","Joining, by = c(""TOTAL.Biomass"", ""Condition.wtat18cm"", ""phy.PC3"", ""zoo.PC2"")
+"
+"2","Joining, by = c(""Condition.wtat18cm"", ""phy.PC2"", ""zoo.PC1"", ""phe.PC2"")
+"
+"1","[[1]]
+"
+"1","
+"
+"1","[[2]]
+"
+"1","
+"
+"1","[[3]]
+"
+"1","
+"
+"1","[[4]]
+"
+"1","
+"
+"1","[[5]]
+"
+"1","
+"

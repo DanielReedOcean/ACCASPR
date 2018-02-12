@@ -1,0 +1,48 @@
+<table>
+<colgroup>
+<col width="67%" />
+<col width="8%" />
+<col width="8%" />
+<col width="15%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Formula</th>
+<th align="right">AIC</th>
+<th align="right">GCV</th>
+<th align="right">Dev. explained (%)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">STRAT_MEAN_K ~ s(phy.PC1, k = 3)# + s(zoo.PC3, k = 3)# + s(phe.PC3, k = 3)*</td>
+<td align="right">-17.08573</td>
+<td align="right">0.0221271</td>
+<td align="right">46.9</td>
+</tr>
+<tr class="even">
+<td align="left">STRAT_MEAN_K ~ s(phy.PC1, k = 3)# + s(phe.PC1, k = 3)# + s(phe.PC3, k = 3)*</td>
+<td align="right">-16.34638</td>
+<td align="right">0.0235854</td>
+<td align="right">47.8</td>
+</tr>
+<tr class="odd">
+<td align="left">STRAT_MEAN_K ~ s(phe.PC1, k = 3)# + s(phe.PC3, k = 3)*</td>
+<td align="right">-16.33330</td>
+<td align="right">0.0222406</td>
+<td align="right">37.7</td>
+</tr>
+<tr class="even">
+<td align="left">STRAT_MEAN_K ~ s(phy.PC1, k = 3)# + s(phe.PC3, k = 3)* + s(STRAT_MEAN_ABUND, k = 3)#</td>
+<td align="right">-16.22924</td>
+<td align="right">0.0231849</td>
+<td align="right">44.1</td>
+</tr>
+<tr class="odd">
+<td align="left">STRAT_MEAN_K ~ s(phy.PC1, k = 3)# + s(phy.PC3, k = 3)# + s(phe.PC1, k = 3)#</td>
+<td align="right">-15.51503</td>
+<td align="right">0.0249153</td>
+<td align="right">46.4</td>
+</tr>
+</tbody>
+</table>

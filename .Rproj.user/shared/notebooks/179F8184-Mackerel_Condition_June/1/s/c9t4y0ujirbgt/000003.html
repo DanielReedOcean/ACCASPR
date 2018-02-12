@@ -1,0 +1,48 @@
+<table>
+<colgroup>
+<col width="63%" />
+<col width="8%" />
+<col width="9%" />
+<col width="17%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Formula</th>
+<th align="right">AIC</th>
+<th align="right">GCV</th>
+<th align="right">Dev. explained (%)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">cond_k ~ s(phy.PC2, k = 3)# + s(phy.PC3, k = 3)# + s(phe.PC2, k = 3)#</td>
+<td align="right">41.64079</td>
+<td align="right">0.7863032</td>
+<td align="right">59.8</td>
+</tr>
+<tr class="even">
+<td align="left">cond_k ~ s(phe.PC2, k = 3)* + s(phe.PC3, k = 3)# + s(ssb, k = 3)#</td>
+<td align="right">41.82086</td>
+<td align="right">0.8171491</td>
+<td align="right">61.6</td>
+</tr>
+<tr class="odd">
+<td align="left">cond_k ~ s(phy.PC2, k = 3)# + s(phe.PC1, k = 3)# + s(phe.PC2, k = 3)#</td>
+<td align="right">42.19125</td>
+<td align="right">0.8273132</td>
+<td align="right">59.8</td>
+</tr>
+<tr class="even">
+<td align="left">cond_k ~ s(phy.PC2, k = 3)# + s(zoo.PC1, k = 3)# + s(phe.PC2, k = 3)#</td>
+<td align="right">42.34902</td>
+<td align="right">0.8195726</td>
+<td align="right">57.7</td>
+</tr>
+<tr class="odd">
+<td align="left">cond_k ~ s(phy.PC2, k = 3)* + s(zoo.PC3, k = 3)# + s(phe.PC1, k = 3)*</td>
+<td align="right">42.72372</td>
+<td align="right">0.8305618</td>
+<td align="right">55.6</td>
+</tr>
+</tbody>
+</table>

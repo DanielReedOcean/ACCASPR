@@ -1,0 +1,48 @@
+<table style="width:100%;">
+<colgroup>
+<col width="68%" />
+<col width="8%" />
+<col width="7%" />
+<col width="15%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Formula</th>
+<th align="right">AIC</th>
+<th align="right">GCV</th>
+<th align="right">Dev. explained (%)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">condition.wtat25cm ~ s(zoo.PC2, k = 3)* + s(zoo.PC3, k = 3)** + s(phe.PC2, k = 3)***</td>
+<td align="right">95.86105</td>
+<td align="right">12.30759</td>
+<td align="right">82.5</td>
+</tr>
+<tr class="even">
+<td align="left">condition.wtat25cm ~ s(zoo.PC3, k = 3)*** + s(phe.PC1, k = 3)# + s(phe.PC2, k = 3)**</td>
+<td align="right">99.86865</td>
+<td align="right">15.35863</td>
+<td align="right">78.1</td>
+</tr>
+<tr class="odd">
+<td align="left">condition.wtat25cm ~ s(zoo.PC3, k = 3)** + s(phe.PC2, k = 3)**</td>
+<td align="right">104.86008</td>
+<td align="right">18.73260</td>
+<td align="right">64.1</td>
+</tr>
+<tr class="even">
+<td align="left">condition.wtat25cm ~ s(zoo.PC3, k = 3)** + s(phe.PC2, k = 3)* + s(TOTAL.Biomass, k = 3)#</td>
+<td align="right">105.00998</td>
+<td align="right">20.00389</td>
+<td align="right">69.4</td>
+</tr>
+<tr class="odd">
+<td align="left">condition.wtat25cm ~ s(zoo.PC1, k = 3)# + s(zoo.PC3, k = 3)** + s(phe.PC2, k = 3)*</td>
+<td align="right">105.91590</td>
+<td align="right">20.59216</td>
+<td align="right">66.0</td>
+</tr>
+</tbody>
+</table>

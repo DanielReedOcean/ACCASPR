@@ -1,0 +1,48 @@
+<table style="width:100%;">
+<colgroup>
+<col width="69%" />
+<col width="7%" />
+<col width="7%" />
+<col width="15%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Formula</th>
+<th align="right">AIC</th>
+<th align="right">GCV</th>
+<th align="right">Dev. explained (%)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Condition.wtat18cm ~ s(phy.PC3, k = 3)# + s(phe.PC3, k = 3)# + s(TOTAL.Biomass, k = 3)*</td>
+<td align="right">66.64335</td>
+<td align="right">2.483279</td>
+<td align="right">67.9</td>
+</tr>
+<tr class="even">
+<td align="left">Condition.wtat18cm ~ s(phy.PC2, k = 3)* + s(zoo.PC2, k = 3)# + s(phe.PC2, k = 3)#</td>
+<td align="right">68.66730</td>
+<td align="right">2.679899</td>
+<td align="right">61.2</td>
+</tr>
+<tr class="odd">
+<td align="left">Condition.wtat18cm ~ s(zoo.PC2, k = 3)# + s(phe.PC1, k = 3)# + s(TOTAL.Biomass, k = 3)**</td>
+<td align="right">68.90922</td>
+<td align="right">2.862408</td>
+<td align="right">64.6</td>
+</tr>
+<tr class="even">
+<td align="left">Condition.wtat18cm ~ s(phy.PC3, k = 3)# + s(zoo.PC2, k = 3)# + s(TOTAL.Biomass, k = 3)#</td>
+<td align="right">70.25204</td>
+<td align="right">2.972342</td>
+<td align="right">59.1</td>
+</tr>
+<tr class="odd">
+<td align="left">Condition.wtat18cm ~ s(phy.PC2, k = 3)# + s(zoo.PC1, k = 3)# + s(phe.PC2, k = 3)#</td>
+<td align="right">70.39070</td>
+<td align="right">2.950201</td>
+<td align="right">57.4</td>
+</tr>
+</tbody>
+</table>

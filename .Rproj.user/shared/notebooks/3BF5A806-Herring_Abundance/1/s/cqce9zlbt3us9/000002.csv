@@ -1,0 +1,31 @@
+"0","lapply(top_models, FUN = examine_gam_res, data = herring)"
+"2","Joining, by = c(""STRAT_MEAN_ABUND"", ""phy.PC2"", ""phy.PC3"", ""zoo.PC2"")
+"
+"2","Joining, by = c(""STRAT_MEAN_ABUND"", ""phy.PC2"", ""zoo.PC2"", ""phe.PC1"")
+"
+"2","Joining, by = c(""STRAT_MEAN_ABUND"", ""phy.PC2"", ""zoo.PC2"", ""phe.PC3"")
+"
+"2","Joining, by = c(""STRAT_MEAN_ABUND"", ""phy.PC2"", ""zoo.PC2"")
+"
+"2","Joining, by = c(""STRAT_MEAN_ABUND"", ""phy.PC1"", ""phy.PC3"", ""zoo.PC2"")
+"
+"1","[[1]]
+"
+"1","
+"
+"1","[[2]]
+"
+"1","
+"
+"1","[[3]]
+"
+"1","
+"
+"1","[[4]]
+"
+"1","
+"
+"1","[[5]]
+"
+"1","
+"

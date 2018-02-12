@@ -1,0 +1,48 @@
+<table>
+<colgroup>
+<col width="64%" />
+<col width="8%" />
+<col width="9%" />
+<col width="17%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Formula</th>
+<th align="right">AIC</th>
+<th align="right">GCV</th>
+<th align="right">Dev. explained (%)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Abundance ~ s(phy.PC1, k = 3)* + s(phy.PC3, k = 3)# + s(zoo.PC2, k = 3)**</td>
+<td align="right">31.66464</td>
+<td align="right">0.6886899</td>
+<td align="right">82.9</td>
+</tr>
+<tr class="even">
+<td align="left">Abundance ~ s(phy.PC1, k = 3)* + s(zoo.PC1, k = 3)# + s(zoo.PC2, k = 3)**</td>
+<td align="right">32.28246</td>
+<td align="right">0.6515885</td>
+<td align="right">79.8</td>
+</tr>
+<tr class="odd">
+<td align="left">Abundance ~ s(phy.PC1, k = 3)# + s(zoo.PC2, k = 3)* + s(phe.PC3, k = 3)#</td>
+<td align="right">33.05111</td>
+<td align="right">0.7478616</td>
+<td align="right">80.7</td>
+</tr>
+<tr class="even">
+<td align="left">Abundance ~ s(phy.PC1, k = 3)# + s(zoo.PC2, k = 3)*</td>
+<td align="right">35.26229</td>
+<td align="right">0.7349997</td>
+<td align="right">70.9</td>
+</tr>
+<tr class="odd">
+<td align="left">Abundance ~ s(zoo.PC2, k = 3)* + s(phe.PC2, k = 3)# + s(phe.PC3, k = 3)#</td>
+<td align="right">35.97686</td>
+<td align="right">0.8447089</td>
+<td align="right">73.5</td>
+</tr>
+</tbody>
+</table>

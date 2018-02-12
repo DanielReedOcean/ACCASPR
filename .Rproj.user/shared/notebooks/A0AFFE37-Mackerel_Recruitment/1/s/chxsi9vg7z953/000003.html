@@ -1,0 +1,48 @@
+<table style="width:100%;">
+<colgroup>
+<col width="63%" />
+<col width="8%" />
+<col width="9%" />
+<col width="17%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Formula</th>
+<th align="right">AIC</th>
+<th align="right">GCV</th>
+<th align="right">Dev. explained (%)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Age_1 ~ s(zoo.PC2, k = 3)* + s(phe.PC2, k = 3)* + s(ssb, k = 3)*</td>
+<td align="right">42.85411</td>
+<td align="right">0.6808552</td>
+<td align="right">71.4</td>
+</tr>
+<tr class="even">
+<td align="left">Age_1 ~ s(phy.PC2, k = 3)* + s(phe.PC1, k = 3)** + s(phe.PC2, k = 3)**</td>
+<td align="right">45.24649</td>
+<td align="right">0.7416837</td>
+<td align="right">64.3</td>
+</tr>
+<tr class="odd">
+<td align="left">Age_1 ~ s(phe.PC1, k = 3)# + s(phe.PC2, k = 3)* + s(ssb, k = 3)#</td>
+<td align="right">46.80248</td>
+<td align="right">0.8430717</td>
+<td align="right">64.0</td>
+</tr>
+<tr class="even">
+<td align="left">Age_1 ~ s(zoo.PC1, k = 3)# + s(phe.PC1, k = 3)# + s(phe.PC2, k = 3)*</td>
+<td align="right">48.63740</td>
+<td align="right">0.9300694</td>
+<td align="right">59.9</td>
+</tr>
+<tr class="odd">
+<td align="left">Age_1 ~ s(zoo.PC2, k = 3)# + s(phe.PC3, k = 3)# + s(ssb, k = 3)#</td>
+<td align="right">49.66818</td>
+<td align="right">0.9631732</td>
+<td align="right">55.7</td>
+</tr>
+</tbody>
+</table>

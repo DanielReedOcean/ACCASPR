@@ -1,0 +1,24 @@
+"0","```r
+# Load necessary libraries
+library(dplyr)
+library(magrittr)
+library(ACCASPR)
+# Load principal component data
+PC.data <- read.csv(\"../../../output/HL_PCs.csv\")
+# Get column headers for fish data
+header <- scan(\"../../../data/For assembly/SummarySilverHakeAbundBiomCond.csv\", nlines = 2, what = character(), sep = \",\")
+```"
+"0","```r
+# Create column names by combining first and second rows
+header <- paste(header[1:(length(header)/2)], header[(1+length(header)/2):length(header)])
+# Load data
+hake <- read.csv(\"../../../data/For assembly/SummarySilverHakeAbundBiomCond.csv\", skip = 2, header = FALSE)
+# Names columns (& strip leading spaces)
+colnames(hake) <- sub(\"^ \", \"\", header)
+colnames(hake)[c(9,11,14,16)] <- c(\"Recruitment biomass se\", \"Recruitment abundance se\", \"Adult biomass se\", \"Adult abundance se\")
+colnames(hake) <- gsub(\" \", \".\", colnames(hake))
+colnames(hake) <- gsub(\"\\(\", \"\", colnames(hake))
+colnames(hake) <- gsub(\"\\)\", \"\", colnames(hake))
+# Join data sets by year
+hake %<>% left_join(PC.data)
+```"

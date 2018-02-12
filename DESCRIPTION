@@ -1,0 +1,19 @@
+Package: ACCASPR
+Type: Package
+Title: For Fitting Generalised Additive Models to Fish Stock Metrics
+Version: 0.1.0
+Authors@R: person("Daniel", "Reed", email = "Daniel.Reed@dfo-mpo.gc.ca", role = c("aut", "cre"))
+Maintainer: Daniel Reed <Daniel.Reed@dfo-mpo.gc.ca>
+Description: A package for linking fish stock data with metrics of pelagic habitat 
+    quality through generalised additive models (GAMs). Functions fit all possible GAMs, 
+    filter and rank these models based on concurvity and AIC, respectively, and plot 
+    results and diagnostics.
+License: MIT + LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: mgcv,
+    knitr,
+    cowplot,
+    nlme
+URL: www.danielreed.org
+RoxygenNote: 6.0.1
