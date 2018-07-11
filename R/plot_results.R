@@ -84,8 +84,8 @@ plot_gam_effect <- function(g, ylabel){
   # Adjust y limits
   y_min <- y_max <- 0
   for(i in 1:length(gam_df)) {
-     y_min <- min(y_min, ggplot2::ggplot_build(p[[i]])$layout$panel_scales_y[[1]]$get_limits()[1])
-     y_max <- max(y_max, ggplot2::ggplot_build(p[[i]])$layout$panel_scales_y[[1]]$get_limits()[2])
+    y_min <- min(y_min, ggplot2::ggplot_build(p[[i]])$layout$panel_scales_y[[1]]$get_limits()[1])
+    y_max <- max(y_max, ggplot2::ggplot_build(p[[i]])$layout$panel_scales_y[[1]]$get_limits()[2])
   }
   p <- lapply(p, function(x) x + ggplot2::ylim(y_min, y_max))
 
