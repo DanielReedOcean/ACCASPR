@@ -107,6 +107,7 @@ plot_gam_effect <- function(g, ylabel){
 #' @param g A \link[mgcv]{gam}
 #' @param data Data frame used to produce \code{g}
 #' @param response Name of the response variable
+#' @importFrom magrittr "%>%"
 #' @export
 plot_gam_ts <- function(g, data, response){
   # Create data frame of years, predictions (+ standard errors), and observations contribution of each PC, and overall model behaviour

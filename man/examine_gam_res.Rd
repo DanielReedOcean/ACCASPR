@@ -13,7 +13,7 @@ examine_gam_res(g, data)
 }
 \description{
 \code{examine_gam_res} produces diagnostic plots used to assess the validity of model assumptions.
-Three figures are produced:
+Three figures are produced that show the following:
 \enumerate{
   \item{Theoretical & observed quantiles}
   \item{Autocorrelation}

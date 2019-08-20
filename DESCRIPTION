@@ -16,4 +16,4 @@ Imports: mgcv,
     cowplot,
     nlme
 URL: www.danielreed.org
-RoxygenNote: 6.0.1
+RoxygenNote: 6.1.1
